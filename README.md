@@ -26,7 +26,12 @@ Currently sharpening my skills in **penetration testing, networking, and Linux**
 
 ## 🏆 TryHackMe Profile
 <!-- TryHackMe Badge -->
-<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4740030" style='border:none;'></iframe>
+<p align="center">
+  <a href="https://tryhackme.com/p/3mkMostafa">
+    <img src="https://tryhackme-badges.s3.amazonaws.com/3mkMostafa.png" alt="TryHackMe Badge" />
+  </a>
+</p>
+
 
 🔗 [View my TryHackMe profile](https://tryhackme.com/p/4740030)
 
