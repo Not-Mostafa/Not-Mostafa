@@ -120,39 +120,3 @@ EOF
 | **Web & API Penetration** | `Burp Suite Pro`, `OWASP ZAP`, `SQLmap`, `ffuf`, `Gobuster`, `Caido`, `Nuclei` | IDOR, SSRF, SSTI, Blind SQLi, GraphQL Injection, Race Conditions, Auth Bypass |
 | **Payload Dev & EDR Evasion** | `C / C++`, `Rust`, `Win32 APIs`, `Direct Syscalls`, `Donut`, `Process Injection` | AMSI/ETW Patching, Unhooking, API Hashing, Shellcode Encryption, Process Hollowing |
 | **Wireless, RFID & Hardware Ops** | `Aircrack-ng`, `Kismet`, `Flipper Zero`, `STM32`, `ESP8266 / ESP32`, `Proxmark3` | Wi-Fi Deauth/Handshake Capture, BadUSB/RubberDucky, Hardware Implants, UART Sniffing |
-
----
-
-## Adversary Emulation & Tactical Kill-Chain
-
-```mermaid
-flowchart TD
-    subgraph Phase1["[01] RECONNAISSANCE & TARGET ACQUISITION"]
-        A1["Active & Passive OSINT"] --> A2["External Attack Surface Mapping"]
-        A2 --> A3["Vulnerability Identification & Fuzzing"]
-    end
-
-    subgraph Phase2["[02] WEAPONIZATION & INFILTRATION"]
-        B1["Custom Payload Engineering"] --> B2["EDR / AMSI / ETW Bypass"]
-        B2 --> B3["Initial Foothold & Code Execution"]
-    end
-
-    subgraph Phase3["[03] POST-EXPLOITATION & PERSISTENCE"]
-        C1["Local Privilege Escalation"] --> C2["In-Memory C2 Beaconing"]
-        C2 --> C3["Credential Harvesting & LSASS Dump"]
-    end
-
-    subgraph Phase4["[04] LATERAL MOVEMENT & OBJECTIVE ACCESS"]
-        D1["Active Directory Forest Abuse"] --> D2["Kerberoast / AS-REP / DACL Exploitation"]
-        D2 --> D3["Domain Admin / Crown Jewels Compromised"]
-    end
-
-    Phase1 ==> Phase2
-    Phase2 ==> Phase3
-    Phase3 ==> Phase4
-
-    classDef stageBox fill:#0d1117,stroke:#ff0055,stroke-width:2px,color:#00ff66;
-    classDef nodeBox fill:#161b22,stroke:#30363d,stroke-width:1px,color:#c9d1d9;
-    class Phase1,Phase2,Phase3,Phase4 stageBox;
-    class A1,A2,A3,B1,B2,B3,C1,C2,C3,D1,D2,D3 nodeBox;
-```
