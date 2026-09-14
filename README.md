@@ -1,8 +1,5 @@
 <div align="center">
 
-  <!-- Header Animated Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,20,30&height=220&section=header&text=OFFENSIVE%20SECURITY%20OPERATOR&fontSize=38&fontAlignY=38&animation=twinkling&fontColor=ff0055&desc=Red%20Teamer%20%7C%20Exploit%20Developer%20%7C%20Adversary%20Simulation&descSize=18&descAlignY=62&descAlign=50" width="100%" />
-
   <!-- Animated Cyber Hacker Graphic -->
   <p align="center">
     <img src="https://media.giphy.com/media/YQitE4YNQNahy/giphy.gif" width="700" alt="Cyber Warfare Terminal" style="border-radius: 8px; border: 1px solid #ff0055;" />
@@ -71,11 +68,11 @@ EOF
       </a>
       <br/><br/>
       <p align="center">
-        <img src="https://img.shields.io/badge/🔥_Streak-200%2B_Days-FF4500?style=for-the-badge&logo=fire&logoColor=white" alt="THM Streak 200+ Days" /><br/>
-        <img src="https://img.shields.io/badge/Status-Top%20%25%20Ranked-red?style=flat-square&logo=target" />
+        <img src="https://img.shields.io/badge/Streak-200%2B_Days-FF4500?style=for-the-badge&logo=fire&logoColor=white" alt="THM Streak 200+ Days" /><br/>
+        <img src="https://img.shields.io/badge/Rank-Top%201%25-red?style=flat-square&logo=target" />
         <img src="https://img.shields.io/badge/Rooms%20Pwned-150%2B-darkred?style=flat-square&logo=checkmarx" />
       </p>
-      <code>[+] 200+ Days Continuous Grinding & Pwning</code>
+      <code>[+] 200+ Days Streak | Top 1% Global Ranking</code>
     </td>
     <td align="center" width="50%">
       <h3>⚔️ Hack The Box Battle Station</h3>
@@ -101,12 +98,12 @@ EOF
 
 <div align="center">
 
-### 💥 Primary Exploit & Weaponization Languages
+### Primary Exploit & Weaponization Languages
 <p align="center">
   <img src="https://skillicons.dev/icons?i=c,cpp,rust,python,bash,powershell,go,asm&theme=dark&perline=8" alt="Offensive Languages" />
 </p>
 
-### 🏴‍☠️ Offensive OS & Attacking Environments
+### Offensive OS & Attacking Environments
 <p align="center">
   <img src="https://skillicons.dev/icons?i=kali,arch,linux,debian,ubuntu,windows&theme=dark&perline=6" alt="Attacking OS" />
 </p>
@@ -126,60 +123,36 @@ EOF
 
 ---
 
-## 🩸 Adversary Emulation & Cyber Kill-Chain Matrix
+## Adversary Emulation & Tactical Kill-Chain
 
 ```mermaid
-flowchart LR
-    A[🔍 Recon & OSINT] --> B[💣 Weaponization]
-    B --> C[🎯 Initial Compromise]
-    C --> D[🛡️ EDR / AV Evasion]
-    D --> E[⚡ Local PrivEsc]
-    E --> F[📡 C2 & Persistence]
-    F --> G[🔄 Lateral Pivoting]
-    G --> H[👑 Domain Compromise / Crown Jewels]
+flowchart TD
+    subgraph Phase1["[01] RECONNAISSANCE & TARGET ACQUISITION"]
+        A1["Active & Passive OSINT"] --> A2["External Attack Surface Mapping"]
+        A2 --> A3["Vulnerability Identification & Fuzzing"]
+    end
 
-    classDef redTeam fill:#200008,stroke:#ff0055,stroke-width:2px,color:#ffffff;
-    class A,B,C,D,E,F,G,H redTeam;
+    subgraph Phase2["[02] WEAPONIZATION & INFILTRATION"]
+        B1["Custom Payload Engineering"] --> B2["EDR / AMSI / ETW Bypass"]
+        B2 --> B3["Initial Foothold & Code Execution"]
+    end
+
+    subgraph Phase3["[03] POST-EXPLOITATION & PERSISTENCE"]
+        C1["Local Privilege Escalation"] --> C2["In-Memory C2 Beaconing"]
+        C2 --> C3["Credential Harvesting & LSASS Dump"]
+    end
+
+    subgraph Phase4["[04] LATERAL MOVEMENT & OBJECTIVE ACCESS"]
+        D1["Active Directory Forest Abuse"] --> D2["Kerberoast / AS-REP / DACL Exploitation"]
+        D2 --> D3["Domain Admin / Crown Jewels Compromised"]
+    end
+
+    Phase1 ==> Phase2
+    Phase2 ==> Phase3
+    Phase3 ==> Phase4
+
+    classDef stageBox fill:#0d1117,stroke:#ff0055,stroke-width:2px,color:#00ff66;
+    classDef nodeBox fill:#161b22,stroke:#30363d,stroke-width:1px,color:#c9d1d9;
+    class Phase1,Phase2,Phase3,Phase4 stageBox;
+    class A1,A2,A3,B1,B2,B3,C1,C2,C3,D1,D2,D3 nodeBox;
 ```
-
----
-
-<div align="center">
-
-## 📊 Warfare Telemetry & GitHub Matrix
-
-<!-- Animated Matrix / TokyoNight GitHub Stats -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Not-Mostafa&show_icons=true&theme=tokyonight&hide_border=false&title_color=ff0055&text_color=ffffff&icon_color=ff0055&bg_color=0d1117" alt="Mostafa's GitHub Stats" width="48%" />
-  <img src="https://nirzak-streak-stats.vercel.app/?user=Not-Mostafa&theme=tokyonight&hide_border=false&stroke=ff0055&background=0d1117&ring=ff0055&fire=ff0055&currStreakLabel=ff0055" alt="GitHub Streak" width="48%" />
-</p>
-
-<!-- Top Languages & Activity Visuals -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Not-Mostafa&layout=compact&theme=tokyonight&hide_border=false&title_color=ff0055&text_color=ffffff&bg_color=0d1117" alt="Top Languages" width="48%" />
-  <img src="https://github-profile-trophy.vercel.app/?username=Not-Mostafa&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4&row=1&column=4" alt="GitHub Trophies" width="48%" />
-</p>
-
-<!-- Animated Activity / Snake -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Not-Mostafa/Not-Mostafa/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" onerror="this.src='https://raw.githubusercontent.com/platane/snk/master/packages/action/resources/demo.svg'" width="95%" />
-</p>
-
-</div>
-
----
-
-<div align="center">
-
-<!-- Footer Capsule with Cyberpunk Glow -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,20,30&height=120&section=footer&text=PWN%20THE%20PLANET%20%7C%200xMostafa&fontSize=22&fontAlignY=65&animation=twinkling&fontColor=ff0055" width="100%" />
-
-<p align="center">
-  <img src="https://visitcount.itsvg.in/api?id=Not-Mostafa&icon=5&color=1" alt="Profile Visits" />
-</p>
-
-<p align="center">
-  <sub>⚠ DISCLAIMER: All offensive security tools, research, and adversary simulations are conducted strictly within authorized CTF ranges, lab environments, and legal red teaming engagements.</sub>
-</p>
-
-</div>
