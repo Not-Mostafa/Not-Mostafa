@@ -67,21 +67,28 @@ EOF
     <td align="center" width="50%">
       <h3>🚩 TryHackMe Battle Station</h3>
       <a href="https://tryhackme.com/p/3mkMostafa" target="_blank">
-        <img src="https://tryhackme-badges.s3.amazonaws.com/3mkMostafa.png" alt="TryHackMe Badge" style="max-width: 100%;" />
+        <img src="https://img.shields.io/badge/TryHackMe-3mkMostafa-critical?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe" height="40" />
       </a>
-      <br/>
-      <img src="https://img.shields.io/badge/THM_Profile-3mkMostafa-critical?style=flat-square&logo=tryhackme&logoColor=white" />
+      <br/><br/>
+      <p align="center">
+        <img src="https://img.shields.io/badge/🔥_Streak-200%2B_Days-FF4500?style=for-the-badge&logo=fire&logoColor=white" alt="THM Streak 200+ Days" /><br/>
+        <img src="https://img.shields.io/badge/Status-Top%20%25%20Ranked-red?style=flat-square&logo=target" />
+        <img src="https://img.shields.io/badge/Rooms%20Pwned-150%2B-darkred?style=flat-square&logo=checkmarx" />
+      </p>
+      <code>[+] 200+ Days Continuous Grinding & Pwning</code>
     </td>
     <td align="center" width="50%">
       <h3>⚔️ Hack The Box Battle Station</h3>
-      <a href="https://app.hackthebox.com/profile/overview" target="_blank">
-        <img src="https://img.shields.io/badge/HTB-Hacker-111927?style=for-the-badge&logo=hackthebox&logoColor=9FEF00" alt="HTB Status" height="70" />
+      <a href="https://app.hackthebox.com" target="_blank">
+        <img src="https://img.shields.io/badge/Hack_The_Box-Hacker-111927?style=for-the-badge&logo=hackthebox&logoColor=9FEF00" alt="HTB Status" height="40" />
       </a>
+      <br/><br/>
       <p align="center">
-        <img src="https://img.shields.io/badge/Pwned_Boxes-Active-green?style=flat-square&logo=hackthebox" />
+        <img src="https://img.shields.io/badge/Pwned_Machines-Active-green?style=for-the-badge&logo=hackthebox" /><br/>
         <img src="https://img.shields.io/badge/Focus-AD%20%7C%20Pivoting%20%7C%20PrivEsc-blueviolet?style=flat-square" />
+        <img src="https://img.shields.io/badge/Arena-Pro%20Labs%20%26%20CTFs-111927?style=flat-square&logo=gnubash" />
       </p>
-      <code>[+] Grinding Insane / Hard Boxes & Pro Labs</code>
+      <code>[+] Grinding Insane / Hard Boxes & Active Directory</code>
     </td>
   </tr>
 </table>
